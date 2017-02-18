@@ -12,11 +12,14 @@ post '/name' do
 end
 
 post '/age' do
-	user_age = params[:age_iput]
-	user_name =params[:user_name]
-	erb :favorite, :locals => {:user_age => user_age, :name =>user_name}
+	user_age = params[:age_input]
+	user_name = params[:user_name]
+	erb :favorite, :locals => {:age_input => user_age, :user_name =>user_name}
 end
 
-Post '/favorite_num' do
-
+post '/number' do
+	numbers = params[:favorite_input]
+	user_age = params[:user_age]
+	user_name = params[:user_name]
+	erb :math, :locals => {:favorite_input => numbers, :user_age => user_age, :user_name => user_name}
 end

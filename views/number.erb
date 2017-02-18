@@ -1,9 +1,12 @@
 <br><br><br>
-<center><h1><%=user_name%>, what are your three favorite numbers separated by commas?
+<center><h1><%=user_name%>, you are <%=user_age%> years old.
+<br><br>
+<center><h1><%=user_name%>, what are your three favorite numbers separated by a comma?
 <br><br>
 <form action='favorite_num' method='post'>
 	<input type='text' name ='age_input'><br>
 	<input type='text' name ='user_input' value = <%=user_name%> hidden>
+	<input type='text' name ='favorite_input' value = <%=age_input%> hidden>
 	<p><input type ='submit'></p>
 
 </form>	</h1></center>
