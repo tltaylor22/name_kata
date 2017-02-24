@@ -1,0 +1,33 @@
+.header {
+	font-family: Garamond; font-weight: bold; color: #3f3f44; font-size: 3rem; 
+}
+.subhead {
+	font-family: Garamond; font-weight: bold; color: #105101; font-size: 2rem;
+}
+.bodycopy {
+	font-family: Garamond; color: black; font-size: 1rem;
+}
+.center {text-align: center;
+}
+.bgcolor {
+	background-color: #dfdeef; position: absolute; right: 0; top: 0; left: 0;
+}
+.bgcolor2 {
+	background-color: #07026d;
+}
+.footer {
+  position: absolute; right: 0; bottom: 0; left: 0; padding: 1rem; background-color: #dfdeef; text-align: center; font-style: italic;
+}
+​/*.header
+{
+    height:50px;
+}
+.content
+{
+    position:absolute;
+    top: 50px;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    overflow-y:scroll;        
+}​*/
